@@ -1,0 +1,222 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 1500px;
+}
+
+/* NAV-MENU CONTAINER */
+
+.nav-container {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(66, 66, 66, 0.26);
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: 'Source Sans Pro';
+    height: 55px;
+    width: 900px;
+    color: rgb(114, 114, 119);
+    
+}
+
+span {
+    color: #89ade0;
+}
+
+.left-box {
+    margin: 0px 0px 0px -10px;
+}
+
+.left-box h3{
+    font-size: 1.4em;
+    font-weight: 550;
+}
+
+.menu-box a{
+    text-decoration: none;
+    color: #55565a;
+}
+
+.right-box {
+    text-transform: uppercase;
+    margin: 0px -11px 0px 0px;
+}
+
+.right-box a {
+    padding: 0px 12px 10px 12px;
+}
+
+.right-box a:hover{
+    border-bottom: 2px solid #3ba394;
+}
+
+/* FIM NAV-MENU CONTAINER */
+
+/* IMG FUNDO QUARTO CONTAINER */
+
+.img-f-quarto-container {
+    display: flex;
+}
+
+.img-f-box {
+    background-image: url(assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100vw;
+    height: 26.5vh;
+}
+
+/* FIM IMG FUNDO QUARTO CONTAINER */
+
+/* wel-content */
+
+.wel-content h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    color: #55565a;
+}
+
+.wel-content p {
+    color: #706f6d;
+    width: 500px;
+    margin: auto;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.wel-content {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+/* QUARTO IMG CONTAINER */
+
+.quarto-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-box img{
+    width: 330px;
+    height: 204.19px;
+    object-fit: cover;
+    margin: 0px 3px;
+}
+
+/* FIM QUARTO IMG CONTAINER */
+
+/* QUARTO CONTENT */
+
+.quarto-content {
+    font-family: 'Source Sans Pro';
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.quarto-list-container {
+    display: flex;
+    font-family: 'Source Sans Pro';
+    justify-content: space-between;
+    width: 920px;
+    margin: auto;
+}
+
+.list-box li{
+    margin: 8px 0px;
+}
+
+.list-box ul{
+    list-style: inside;
+}
+
+.q-familia {
+    margin-bottom: 50px;
+}
+
+.footer-dad {
+    display: flex;
+    flex-direction: column;
+    background-color: #49997C;
+}
+
+.footer-container {
+    display: flex;
+    margin: auto;
+    width: 900px;
+    height: 110px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.footer-box {
+    display: flex;
+    color: white;
+    width: 250px;
+    
+}
+
+.footer-box img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.footer-box p {
+    margin: 0px 10px;
+}
+
+.footer-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-box {
+    width: 190px;
+}
+
+.address-box {
+    margin: 0px 0px 0px 15px;
+}
+
+.cel-box p{
+    margin-top: 9px;
+    flex-grow: 1;
+}
+
+.cel-box img{
+    margin: 0px 0px 0px 25px;
+}
+
+.copy {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 15px 0px;
+    text-align: center;
+    font-weight: bold;
+}
